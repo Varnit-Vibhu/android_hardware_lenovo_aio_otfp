@@ -1,6 +1,6 @@
 LOCAL_PATH:= $(call my-dir)
 
-ifneq ($(filter P70, $(TARGET_DEVICE)),)
+ifneq ($(filter sisley2OFRL, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 
